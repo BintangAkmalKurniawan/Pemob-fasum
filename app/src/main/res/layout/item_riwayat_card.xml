@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    android:backgroundTint="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txt_fasilitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lapangan"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Penyewa"
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/txt_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Sewa"
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/txt_waktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12:00 - 15:00"
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

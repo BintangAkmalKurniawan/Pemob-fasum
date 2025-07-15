@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profil Saya"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/headerBlue"
+        android:textColor="#FFFFFF" />
+
+    <!-- Foto Profil -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_1"
+        android:layout_marginTop="32dp" />
+
+    <!-- Nama -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bintang Akmal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Email -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Bintang@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#666"
+        android:textSize="16sp" />
+
+
+    <!-- Tombol Kembali -->
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Tombol Keluar -->
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:backgroundTint="#F25C54"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
