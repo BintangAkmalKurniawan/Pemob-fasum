@@ -17,7 +17,8 @@
         <ImageView
             android:id="@+id/logo"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/iconbesar"/>
 
     </LinearLayout>
 
@@ -37,7 +38,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Log In Dulu"
+            android:text="Log In Dulu"
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="#000"

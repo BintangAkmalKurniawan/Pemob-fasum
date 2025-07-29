@@ -14,4 +14,11 @@
         <!-- Customize your theme here. -->
 
     </style>
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/fasumicon</item>
+        <item name="postSplashScreenTheme">@style/Theme.Kelompok4</item>
+
+    </style>
+
 </resources>
