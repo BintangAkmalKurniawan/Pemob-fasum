@@ -4,15 +4,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/whitegading"
     android:padding="0dp">
 
     <!-- Header -->
     <TextView
         android:id="@+id/header_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Riwayat Booking Saya"
+        android:layout_height="100dp"
+        android:text="RIWAYAT BOOKING"
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
